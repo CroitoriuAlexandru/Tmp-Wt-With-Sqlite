@@ -34,7 +34,7 @@ std::unique_ptr<Wt::WTemplate> PageOne::create_formWidget()
     stringInput_->setPlaceholderText("Enter text here");
     
     // input for enumeration to be recorder in dbo
-    selectInput_ = formTemplate->bindWidget("selectio-input", std::move(createComboBox()));
+    selectInput_ = formTemplate->bindWidget("selection-input", std::move(createComboBox()));
 
     // input for double to be recorder in dbo
     doubleInput_ = formTemplate->bindWidget("double-input", std::make_unique<Wt::WDoubleSpinBox>());

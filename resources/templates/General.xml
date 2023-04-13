@@ -3,7 +3,7 @@
 
 	<message id='form'>
 		<div class="fs-5 mb-2 text-decoration-underline text-center">Form for submiting data to the table</div>
-		<form class="d-flex justify-content-center border ">
+		<form class="d-flex justify-content-center border" style="height: 80px;">
 
 			<div class="px-3 border-end">
 				<div class="text-capitalize text-center text-nowrap">string data</div>
@@ -12,7 +12,7 @@
 
 			<div class="px-3 border-end">
 				<div class="text-capitalize text-center text-nowrap">selection data</div>
-				${selectio-input}
+				${selection-input}
 			</div>
 
 			<div class="px-3 border-end">
@@ -32,7 +32,7 @@
 					${time-input}
 				</div>
 			</div>
-			${submit-btn class="btn btn-outline-primary"}
+			${submit-btn class="btn btn-success"}
 		</form>
 		${submit-info class="text-danger"}
 	</message>
